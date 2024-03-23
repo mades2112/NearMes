@@ -25,6 +25,28 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
+map.html
+```
+<html>
+    <head>
+        <title>CHIDAMBARAM</title>
+    </head>
+    <body bgcolor="pink">
+        <h1>CHIDAMBARAM CITY</h1>
+        <h3>Name: MADESWARAN </MADESWARAN></h3>
+        <h3>Reg no:212223040106</h3>
+        <img src="motu3.html.png" usemap="#image-map" width="100%" height="100%">
+
+<map name="image-map">
+    <area target="" alt="thillai nataraja temple" title="thillai nataraja temple" href="temple.html" coords="610,558,57" shape="circle">
+    <area target="" alt="pichavaram mangrove forest" title="pichavaram mangrove forest" href="mangrove.html" coords="1290,337,126" shape="circle">
+    <area target="" alt="annamalai university" title="annamalai university" href="annamalai.html" coords="791,620,44" shape="circle">
+    <area target="" alt="mangovebay ecocamp" title="mangovebay ecocamp" href="mangrove bay.html" coords="1198,673,56" shape="circle">
+    <area target="" alt="chidgambaram beach" title="chidgambaram beach" href="beach.html" coords="1557,537,67" shape="circle">
+</map>
+    </body>
+</html>
+```
 temple.html
 ```
 <html>
